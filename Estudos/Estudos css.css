@@ -1,0 +1,50 @@
+/*Algumas anotações sobre o CSS.
+
+O CSS é uma linguagem de estilização, utilizada em complemento com o html para deixar a pagina web visualmente mais bonita.
+
+os comandos para a utilização da linguangem são semelhantes ao html, ja que sera utilizada para mudar o estilo da pagina.*/
+
+/*HTML*/
+
+<body>
+
+/*CSS*/
+
+body{}
+
+/* Para que as alterações feitas pelo CSS sejam ativadas no codigo HTML é necessario uma sincronização, que é feita da segunte maneira:
+
+<link rel="stylesheet" href="ARQUIVO HTML A SER LINKADO">
+
+A tag link ativa o mecanismo de ligação entre os dois arquivos.
+
+"rel" indica a relação que ele vai ter com a pagina html.
+
+"href" indica qual arquivo está sendo referenciado nesse link.*/
+
+
+/* Para alterar alguma tag no CSS, basta utilizar da tag em especifico e realizar as devidas estilizações.
+
+Mas para alterar uma tag especifica, caso hajam mais de uma no seu codigo, você precisa :
+
+1. Criar uma Classe para a parte especifica que voçê pretende alterar.
+
+Para execultar basta por "class" dentro da tag desejada e conseder um nome. EX:
+
+<strong class="titulo-destaque">
+
+2. Em seguida para fazer essa alteração no página, você vai ate o código CSS e utiliza a seguinte nomenclatura:
+
+.nome-da-classe{} */
+
+/* Para trazer ainda mais diferença e estilos para sua pagina, é possivel alterar a fonte da letra dos seus textos.
+
+Para fazer isso, você precisará procurar no google por google fontes, encontrar a fonte que vc quer, importar a fonte,
+em seguida ativar a fonte na linha de texto desejada.*/
+
+/* É possivel criar variaveis no CSS da seguinte maneira:
+
+  variavel global :root{ -- nome-variavel: oq elas guarda;}  
+  
+  Para utilizar essa variavel é necessario por o codigo ... var(variavel)
+  */
