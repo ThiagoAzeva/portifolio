@@ -80,11 +80,6 @@ gap: 80px;
     font-family: var(--fonte-primaria);
 }
 
-.apresentacao__conteudo__subtitulo{
-    font-size: 2.25rem;
-    font-family: var(--fonte-primaria);
-}
-
 .titulo-destaque
 {
     color: var(--cor-terciaria);
