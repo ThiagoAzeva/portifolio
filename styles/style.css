@@ -146,7 +146,9 @@ font-weight: 400;
     height: auto; /* A altura será ajustada automaticamente para manter a proporção */
   }
 
-  .
+  
+
+  
 
   @media (max-width: 1200px)
   {
@@ -156,6 +158,7 @@ font-weight: 400;
 
     .cabecalho__menu{
         justify-content: center;
+        gap: 10%;
     }
 
     .apresentacao{
